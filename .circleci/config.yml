@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: jeremylauret/python-r
+      - image: jeremylauret/python-r:v1
     steps:
       - checkout
       - run:
